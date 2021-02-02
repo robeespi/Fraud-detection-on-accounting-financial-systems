@@ -18,6 +18,8 @@ Financial statementes that exhibit unusual or rare individual attribute values. 
 * Local Anomalies: 
 Financial statementes that exhibit an unusual or rare combination of attribute values while the individual attribute values occur quite frequently e.g. unusual accounting records.
 
+![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/PCA.jpeg)
+
 Also, t-sne was developed on tensorboard tow visualize fraud objects. The following link shows this https://youtu.be/dR1_WrjaFFE
 
 # Results
