@@ -1,9 +1,9 @@
 # Fraud-detection-on-accounting-financial-systems
 
-Problem:
+* Problem:
 Existing unsupervised fraud detection methods successfully learn representations of normal-anomaly accounting statements offering acceptable interpretability of these models. However, fraudster always Kinds ways to violate known scenarios leading unsupervised approaches to suboptimal performance. 
 
-Solution:
+* Solution:
 This repo contains a notebook with a solution which proposes the following workflow before to apply a Multilayer Perceptron Neural Network
 
 ![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/Data_preparation_workflow.jpeg)
