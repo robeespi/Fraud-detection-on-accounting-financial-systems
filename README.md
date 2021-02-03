@@ -2,9 +2,24 @@
 
 * Problem:
 
-Existing unsupervised fraud detection methods successfully learn representations of normal-anomaly accounting statements offering acceptable interpretability of these models. However, fraudster always Kinds ways to violate known scenarios leading unsupervised approaches to suboptimal performance. 
+Existing unsupervised fraud detection methods successfully learn representations of normal-anomaly accounting statements offering acceptable interpretability of these models. 
 
-* Dataset 
+<a id="1">[1]</a> 
+https://arxiv.org/pdf/1908.00734.pdf  Schreyer, Marco.  Sattarov, Timur   Schulze, Christian  Reimer, Bernd Borth,Damian(2019). 
+Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Neural Networks 
+KDD-ADF ’19, August 05, 2019, Anchorage, Alaska
+
+<a id="2">[2]</a> 
+https://arxiv.org/pdf/1709.05254.pdf  Schreyer, Marco.  Sattarov, Timur   Dengel, Andreas   Reimer, Bernd Borth,Damian(2019). 
+Detection of Anomalies in Large-Scale Accounting Data using Deep Autoencoder Networks
+
+
+
+
+
+However, fraudster always Kinds ways to violate known scenarios leading unsupervised approaches to suboptimal performance. 
+
+
 
 
 
