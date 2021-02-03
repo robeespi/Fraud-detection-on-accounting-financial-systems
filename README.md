@@ -1,6 +1,6 @@
-# Fraud-detection-on-accounting-financial-systems
+# 1. Fraud-detection-on-accounting-financial-systems
 
-* Problem:
+# 1.1 Problem:
 
 Existing unsupervised fraud detection methods successfully learn representations of normal-anomaly accounting statements offering acceptable interpretability of these models. 
 
@@ -18,13 +18,13 @@ However, fraudster always find new ways to violate known scenarios leading unsup
     + Semi-supervised: A fraction of the anomalies are identified and then labelled, all clases of anomalies are identified.
     + Weakly-supervised:  A fraction of the anomalies are identified and then labelled, but not all clasess of anomalies are identified.
 
-* Solution:
+# 1.2 Solution:
 
 This repo contains a notebook with a solution which proposes the following workflow before to apply a Multilayer Perceptron Neural Network
 
 ![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/Data_preparation_workflow.jpeg)
 
-# Highlights workflow
+# 2. Highlights workflow
 
 PCA helps to visualize two types of fraud class on high dimensional data. According to the domain knowledge, by having two types of anomalies make sense
 
@@ -38,7 +38,7 @@ Financial statementes that exhibit an unusual or rare combination of attribute v
 
 Also, t-sne was developed on tensorboard tow visualize fraud objects. The following link shows this https://youtu.be/dR1_WrjaFFE
 
-# How to use this notebook
+# 3. How to use this notebook
 
 Please use it on Goggle Colab by enabling 25gb RAM. You can use this trick to increase the RAM of your service
 
@@ -48,7 +48,7 @@ You can explore the aforementioned workflow by using a table of contents, as the
 
 ![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/table_contents.jpeg)
 
-# Results
+# 4. Results
 
 even though semi-supervised approach outperforms unsupervised approach by labelling less than 1% out of availables fraud objects, weakly-supervised approach did not perform better than the unsupervised method. Additionally, weakly supervised method presented high variance due to small number of fraud objects available.Therefore, there are room for improvements in order to lift the ability of the model to predict unknown frauds.
 
