@@ -41,7 +41,7 @@ Also, t-sne was developed on tensorboard tow visualize fraud objects. The follow
 # Results
 
 Model | #Supervision settings | #F1 | 
---- | --- | --- | --- | --- |
+--- | --- | --- | 
 MLP | Semi-supervised | 82.85% | 
 MLP knowing local-global unknown | Weakly-supervised| 66.66% | 
 MLP knowing global-global local | Weakly-supervised| 59.45% | 
