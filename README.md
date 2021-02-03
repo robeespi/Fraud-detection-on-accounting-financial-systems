@@ -13,15 +13,10 @@ KDD-ADF ’19, August 05, 2019, Anchorage, Alaska
 https://arxiv.org/pdf/1709.05254.pdf  Schreyer, Marco.  Sattarov, Timur   Dengel, Andreas   Reimer, Bernd Borth,Damian(2019). 
 Detection of Anomalies in Large-Scale Accounting Data using Deep Autoencoder Networks
 
+However, fraudster always find new ways to violate known scenarios leading unsupervised approaches to suboptimal performance. As a result, this notebook explore semi-supervised and weakly supervised approach to detect fraud.
 
-
-
-
-However, fraudster always Kinds ways to violate known scenarios leading unsupervised approaches to suboptimal performance. 
-
-
-
-
+ + Semi-supervised: A fraction of the anomalies are identified and then labelled, all clases of anomalies are identified.
+ + Weakly-supervised:  A fraction of the anomalies are identified and then labelled, but not all clasess of anomalies are identified.
 
 * Solution:
 
@@ -31,7 +26,7 @@ This repo contains a notebook with a solution which proposes the following workf
 
 # Highlights workflow
 
-PCA helps to visualize two types of fraud on high dimensional data. According to the domain knowledge, by having two types of anomalies make sense
+PCA helps to visualize two types of fraud class on high dimensional data. According to the domain knowledge, by having two types of anomalies make sense
 
 * Global Anomalies: 
 Financial statementes that exhibit unusual or rare individual attribute values. These anomalies usually relate to highly skewed attributes e.g. seldom posting users, rarely used ledgers, or unusual posting times.
@@ -44,3 +39,10 @@ Financial statementes that exhibit an unusual or rare combination of attribute v
 Also, t-sne was developed on tensorboard tow visualize fraud objects. The following link shows this https://youtu.be/dR1_WrjaFFE
 
 # Results
+
+Model | #Supervision settings | #F1 | 
+--- | --- | --- | --- | --- |
+MLP | Semi-supervised | 82.85% | 
+MLP knowing local/ global unknown | Weakly-supervised-supervised | 66.66% | 
+MLP knowing global/ global local | Weakly-supervised-supervised | 59.45% | 
+Autoencoder | Unsupervised | 72.51% | 
