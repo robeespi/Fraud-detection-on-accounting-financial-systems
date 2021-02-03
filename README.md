@@ -44,7 +44,7 @@ Please use it on Goggle Colab by enabling 25gb RAM. You can use this trick to in
 
 https://towardsdatascience.com/upgrade-your-memory-on-google-colab-for-free-1b8b18e8791d
 
-You can explore the notebook by using its table of contents, as the following image shows.
+You can explore the aforementioned workflow by using a table of contents, as the following image shows.
 
 ![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/table_contents.jpeg)
 
