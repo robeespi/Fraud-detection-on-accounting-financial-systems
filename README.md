@@ -15,8 +15,8 @@ Detection of Anomalies in Large-Scale Accounting Data using Deep Autoencoder Net
 
 However, fraudster always find new ways to violate known scenarios leading unsupervised approaches to suboptimal performance. As a result, this notebook explore semi-supervised and weakly supervised approach to detect fraud.
 
- + Semi-supervised: A fraction of the anomalies are identified and then labelled, all clases of anomalies are identified.
- + Weakly-supervised:  A fraction of the anomalies are identified and then labelled, but not all clasess of anomalies are identified.
+    + Semi-supervised: A fraction of the anomalies are identified and then labelled, all clases of anomalies are identified.
+    + Weakly-supervised:  A fraction of the anomalies are identified and then labelled, but not all clasess of anomalies are identified.
 
 * Solution:
 
