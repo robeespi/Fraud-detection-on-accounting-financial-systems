@@ -44,5 +44,5 @@ Model | #Supervision settings | #F1 |
 --- | --- | --- | 
 MLP | Semi-supervised | 82.85% | 
 MLP knowing local-global unknown | Weakly-supervised| 66.66% | 
-MLP knowing global-global local | Weakly-supervised| 59.45% | 
+MLP knowing global-local unknown| Weakly-supervised| 59.45% | 
 Autoencoder | Unsupervised | 72.51% | 
