@@ -50,7 +50,7 @@ You can explore the aforementioned workflow by using a table of contents, as the
 
 # Results
 
-Even tough semi-supervised approach outperforms unsupervised approach by labelling less than 1% out of availables fraud objects, weakly-supervised approach did not perform better than the unsupervised method. Additionally, weakly supervised method presented high variance due to small number of fraud objects available.Therefore, there are room for improvements in order to lift the ability of the model to predict unknown frauds.
+even though semi-supervised approach outperforms unsupervised approach by labelling less than 1% out of availables fraud objects, weakly-supervised approach did not perform better than the unsupervised method. Additionally, weakly supervised method presented high variance due to small number of fraud objects available.Therefore, there are room for improvements in order to lift the ability of the model to predict unknown frauds.
 
 Model | #Supervision settings | #F1 | 
 --- | --- | --- | 
