@@ -38,6 +38,16 @@ Financial statementes that exhibit an unusual or rare combination of attribute v
 
 Also, t-sne was developed on tensorboard tow visualize fraud objects. The following link shows this https://youtu.be/dR1_WrjaFFE
 
+# How to use this notebook
+
+Please use it on Goggle Colab by enabling 25gb RAM. You can use this trick to increase the RAM of your service
+
+https://towardsdatascience.com/upgrade-your-memory-on-google-colab-for-free-1b8b18e8791d
+
+You can explore the notebook by using its table of contents, as the following image shows.
+
+![alt text](https://github.com/robeespi/Fraud-detection-on-accounting-financial-systems/blob/master/table_contents.jpeg)
+
 # Results
 
 Even tough semi-supervised approach outperforms unsupervised approach by labelling less than 1% out of availables fraud objects, weakly-supervised approach did not perform better than the unsupervised method. Additionally, weakly supervised method presented high variance due to small number of fraud objects available.Therefore, there are room for improvements in order to lift the ability of the model to predict unknown frauds.
